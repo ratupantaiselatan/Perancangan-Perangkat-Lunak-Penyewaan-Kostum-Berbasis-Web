@@ -1,0 +1,80 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36">
+  <diagram name="Page-1" id="Hnc8Jquqkt0emmohYzIa">
+    <mxGraphModel dx="860" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+          <mxGeometry height="610" width="200" x="370" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-6" parent="FQbU3pz_3zJPQrvOQZDq-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Menampilkan Form Login" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-13" edge="1" parent="FQbU3pz_3zJPQrvOQZDq-1" source="FQbU3pz_3zJPQrvOQZDq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FQbU3pz_3zJPQrvOQZDq-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-8" parent="FQbU3pz_3zJPQrvOQZDq-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Mengecek username dan password" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-15" edge="1" parent="FQbU3pz_3zJPQrvOQZDq-1" source="FQbU3pz_3zJPQrvOQZDq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FQbU3pz_3zJPQrvOQZDq-14" value="Ya">
+          <mxGeometry relative="1" x="-0.5" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-16" edge="1" parent="FQbU3pz_3zJPQrvOQZDq-1" source="FQbU3pz_3zJPQrvOQZDq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="FQbU3pz_3zJPQrvOQZDq-6" value="Tidak">
+          <mxGeometry relative="1" x="-0.931" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="180" y="390" />
+              <mxPoint x="180" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-9" parent="FQbU3pz_3zJPQrvOQZDq-1" style="rhombus;whiteSpace=wrap;html=1;" value="Jika Benar" vertex="1">
+          <mxGeometry height="80" width="80" x="60" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-18" edge="1" parent="FQbU3pz_3zJPQrvOQZDq-1" source="FQbU3pz_3zJPQrvOQZDq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FQbU3pz_3zJPQrvOQZDq-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-14" parent="FQbU3pz_3zJPQrvOQZDq-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Menampilkan menu utama" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-17" parent="FQbU3pz_3zJPQrvOQZDq-1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="85" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Penyewa" vertex="1">
+          <mxGeometry height="610" width="200" x="170" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-3" parent="FQbU3pz_3zJPQrvOQZDq-2" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="85" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-5" parent="FQbU3pz_3zJPQrvOQZDq-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Mulai Aplikasi" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-7" parent="FQbU3pz_3zJPQrvOQZDq-2" style="rounded=1;whiteSpace=wrap;html=1;" value="Melakukan input username dan password" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="YclorFM1mzxPFMbEh5nD-1" edge="1" parent="FQbU3pz_3zJPQrvOQZDq-2" source="FQbU3pz_3zJPQrvOQZDq-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FQbU3pz_3zJPQrvOQZDq-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="120" as="sourcePoint" />
+            <mxPoint x="210" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-10" edge="1" parent="1" source="FQbU3pz_3zJPQrvOQZDq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FQbU3pz_3zJPQrvOQZDq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-11" edge="1" parent="1" source="FQbU3pz_3zJPQrvOQZDq-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FQbU3pz_3zJPQrvOQZDq-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="390" />
+              <mxPoint x="270" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQbU3pz_3zJPQrvOQZDq-12" edge="1" parent="1" source="FQbU3pz_3zJPQrvOQZDq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FQbU3pz_3zJPQrvOQZDq-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
