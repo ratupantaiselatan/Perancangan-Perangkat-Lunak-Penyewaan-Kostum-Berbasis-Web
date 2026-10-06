@@ -18,3 +18,7 @@ Fungsi utama sistem meliputi:
 5. Menjadi acuan dalam proses pengembangan dan pengujian sistem.
 
 # Kelompok 12
+Ratu Arsyqa (202343501618)
+Ade Rahmawati (202343501606)
+Tristiyanto (202343501602)
+ VINSENSIUS SARGOSA (202343501635)
